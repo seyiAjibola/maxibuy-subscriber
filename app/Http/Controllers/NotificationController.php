@@ -13,12 +13,13 @@ class NotificationController extends Controller
         $response['topic'] = $request->topic;
         $response['data'] = $request->data; // if coming from POSTMAN should be json_encode($request->data)
 
-        
+        /*
         //Uncomment this block to save notification in DB...make sure the DB is set to the Publisher DB
         $notification = new Notification();
         $notification->topic = $response['topic'];
         $notification->message = $response['data'];
         $notification->save();
+        */
         
 
         return response($response, 200);
