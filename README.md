@@ -1,6 +1,4 @@
-<p align="center">Installations</p>
-
-## Subscriber Intructions
+## Subscriber Installations
 
 - Clone or Download the Repo.
 - Cd into your project directory.
